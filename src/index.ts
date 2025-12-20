@@ -1,1 +1,3 @@
-console.log("Hello, World!");
+import { canConstruct } from "./ransom-note";
+
+console.log(canConstruct);
