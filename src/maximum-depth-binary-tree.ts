@@ -8,6 +8,7 @@ type TreeNode = {
   right: TreeNode | null;
   val: number;
 } | null;
+
 export function maxDepth(root: TreeNode): number {
   if (!root) return 0;
 
