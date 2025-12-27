@@ -32,8 +32,6 @@ export function removeElement(nums: number[], val: number): number {
 
 let nums1 = [3, 2, 2, 3];
 
-console.log(removeElement(nums1, 3), nums1);
-
 // prettier-ignore
 test("remove-element: basic case", removeElement([3,2,2,3], 3), 2);
 // prettier-ignore
