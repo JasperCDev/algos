@@ -7,30 +7,15 @@ Consider the number of elements in nums which are not equal to val be k, to get 
 Change the array nums such that the first k elements of nums contain the elements which are not equal to val. The remaining elements of nums are not important as well as the size of nums.
 Return k. */
 export function removeElement(nums: number[], val: number): number {
-  // let indexes: number[] = [];
-  // for (let i = 0; i < nums.length; i++) {
-  //   let n = nums[i];
-  //   if (n === val) {
-  //     indexes.push(i);
-  //   }
-  // }
-  let count = 0;
-  let lastValidIndex: null | number = null;
-  for (let i = nums.length - 1; i >= 0; i--) {
-    if (nums[i] === val) {
-      if (lastValidIndex !== null) {
-        nums[i] = nums[lastValidIndex];
-        lastValidIndex = null;
-      }
-      continue;
+  let index = 0;
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] !== val) {
+      nums[index] = nums[i];
+      index++;
     }
-    count++;
-    lastValidIndex = i;
   }
-  return count;
+  return index;
 }
-
-let nums1 = [3, 2, 2, 3];
 
 // prettier-ignore
 test("remove-element: basic case", removeElement([3,2,2,3], 3), 2);
