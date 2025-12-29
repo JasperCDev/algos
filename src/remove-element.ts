@@ -17,6 +17,14 @@ export function removeElement(nums: number[], val: number): number {
   return index;
 }
 
+/*
+[3,2,2,3] i = 0, index = 0
+[3,2,2,3] i = 1, index = 0
+[2,2,2,3] i = 2, index = 1
+[2,2,2,3] i = 3, index = 2
+[2,2,2,3] i = 4, index = 2
+*/
+
 // prettier-ignore
 test("remove-element: basic case", removeElement([3,2,2,3], 3), 2);
 // prettier-ignore
