@@ -1,3 +1,4 @@
+import { lengthOfLastWord } from "./length-of-last-word";
 import { maxDepth } from "./maximum-depth-binary-tree";
 import { isPalindrome } from "./palindrone-number";
 import { canConstruct } from "./ransom-note";
@@ -12,4 +13,5 @@ import { isValid } from "./valid-parenthesis";
 // console.log(maxDepth);
 // console.log(isPalindrome);
 // console.log(removeElement);
-console.log(removeDuplicates);
+// console.log(removeDuplicates);
+console.log(lengthOfLastWord);
