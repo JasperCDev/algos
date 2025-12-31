@@ -1,3 +1,4 @@
+import { isIsomorphic } from "./isomorphic-strings";
 import { lengthOfLastWord } from "./length-of-last-word";
 import { maxDepth } from "./maximum-depth-binary-tree";
 import { isPalindrome } from "./palindrone-number";
@@ -14,4 +15,5 @@ import { isValid } from "./valid-parenthesis";
 // console.log(isPalindrome);
 // console.log(removeElement);
 // console.log(removeDuplicates);
-console.log(lengthOfLastWord);
+// console.log(lengthOfLastWord);
+console.log(isIsomorphic)
