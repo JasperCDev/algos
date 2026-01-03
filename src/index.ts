@@ -7,6 +7,7 @@ import { removeDuplicates } from "./remove-duplicates-from-sorted-array";
 import { removeElement } from "./remove-element";
 import { simplifyPath } from "./simplify-path";
 import { isValid } from "./valid-parenthesis";
+import { wordPattern } from "./word-pattern";
 
 // console.log(canConstruct);
 // console.log(isValid);
@@ -16,4 +17,5 @@ import { isValid } from "./valid-parenthesis";
 // console.log(removeElement);
 // console.log(removeDuplicates);
 // console.log(lengthOfLastWord);
-console.log(isIsomorphic)
+// console.log(isIsomorphic)
+console.log(wordPattern);
